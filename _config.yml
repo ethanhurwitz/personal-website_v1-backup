@@ -6,7 +6,7 @@ title: Ethan Hurwitz
 email: ehurwitz@ucsd.edu
 description: 
 
-minimal_mistakes_skin: dark
+#minimal_mistakes_skin: dark
 
 url:  #ethanhurwitz.com # the base hostname & protocol for your site
 baseurl: #asdf # the subpath of your site, e.g. /blog/
@@ -65,7 +65,7 @@ enable_katex:       true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+#remote_theme: mmistakes/minimal-mistakes
 highlighter: rouge
 
 # Includes & excludes
