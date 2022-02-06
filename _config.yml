@@ -1,0 +1,91 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+name: Ethan Hurwitz
+title: Ethan Hurwitz
+email: ehurwitz@ucsd.edu
+description: 
+
+minimal_mistakes_skin: dark
+
+url:  #ethanhurwitz.com # the base hostname & protocol for your site
+baseurl: #asdf # the subpath of your site, e.g. /blog/
+last_updated: # leave blank if you don't want to display last updated
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+github_username: ethanhurwitz
+twitter_username: ethanShurwitz
+linkedin_username: ethan-hurwitz-87857274
+scholar_userid: hciXZQQAAAAJ
+#instagram_username: 
+#goodreads_username: reading LUL
+
+# google_analytics: UA-XXXXXXXXX # out your google-analytics code
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+#Fix and add these at some point.
+#collections:
+#  projects:
+#    output: true
+#    permalink: /projects/:path/
+
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+#blog_name: Ethan Hurwitz
+#blog_description: 
+
+# Pagination
+#paginate: 4
+#permalink: /posts/:year/:title/
+#paginate_path: /posts/page:num/
+
+#text:
+#  pagination:
+#    newer: 'Newer'
+#    older: 'Older'
+
+# Comments
+disqus_shortname: Ethan Hurwitz # put your disqus shortname
+
+# Optional features
+show_social_icons:  true
+enable_anchorjs:    false
+enable_katex:       true
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+highlighter: rouge
+
+# Includes & excludes
+include: ['_pages']
+exclude: [vendor]
+
+# Plug-ins
+plugins:
+    - jekyll-email-protect
+    - jekyll-paginate
+    - jekyll-scholar
+    - jemoji
+    
+    - jekyll-sitemap
+    - jekyll-gist
+    - jekyll-feed
+    - jekyll-include-cache
+# -----------------------------------------------------------------------------
+# Other settings
+# -----------------------------------------------------------------------------
+jquery_version: "1.12.4"
+katex_version: "0.9.0"
+anchorjs_version: "3.2.2"

@@ -1,0 +1,21 @@
+---
+layout: default
+title: Posts
+permalink: /posts/
+published: true
+---
+
+<header class=margin-bottom:10px>
+  <h1 class="page-header">Posts</h1>
+</header>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+      <h2><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.description }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+{% include social.html %}
